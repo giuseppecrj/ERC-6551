@@ -7,11 +7,9 @@ import {AccountBaseSetup} from "test/account/AccountBaseSetup.sol";
 //interfaces
 
 //libraries
-import {Clones} from "openzeppelin-contracts/contracts/proxy/Clones.sol";
 
 //contracts
 import {MockERC721} from "test/mocks/MockERC721.sol";
-import {ERC20} from "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import {Account} from "src/account/Account.sol";
 
 contract AccountTest is AccountBaseSetup {
